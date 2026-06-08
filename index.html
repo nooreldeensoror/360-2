@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>360 Links</title>
+  <title>360 Viewer Links</title>
   <style>
-    body { font-family: Arial; padding: 40px; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 100vh;
+    }
+
     a {
-      display: block;
-      margin: 15px 0;
-      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      text-decoration: none;
+      border: 1px solid #ccc;
+      color: black;
+    }
+
+    a:hover {
+      background: #f5f5f5;
     }
   </style>
 </head>
 <body>
-  <h1>360 Views</h1>
+  <div class="grid">
+    <a target="_blank"
+       href="https://cloud-va.insta360.com/share/va/3t9Y6g9h6A9M4F0k1967968256/player?mediaId=396969383991185408&businessId=396969402047660032">
+       Open View 1
+    </a>
 
-  <a href="https://cloud-va.insta360.com/share/va/3t9Y6g9h6A9M4F0k1967968256/player?mediaId=396969383991185408&businessId=396969402047660032" target="_blank">Open View 1</a>
-  <a href="https://cloud-va.insta360.com/share/va/3a9J6z9v6h9m7H6r0723570688" target="_blank">Open View 2</a>
-  <a href="https://cloud-va.insta360.com/share/va/3V966Q9E7U0Y0G3s6717162496" target="_blank">Open View 3</a>
-  <a href="https://cloud-va.insta360.com/share/va/3L976e9I7w0S2z044514484224" target="_blank">Open View 4</a>
+    <a target="_blank"
+       href="https://cloud-va.insta360.com/share/va/3a9J6z9v6h9m7H6r0723570688">
+       Open View 2
+    </a>
 
+    <a target="_blank"
+       href="https://cloud-va.insta360.com/share/va/3V966Q9E7U0Y0G3s6717162496">
+       Open View 3
+    </a>
+
+    <a target="_blank"
+       href="https://cloud-va.insta360.com/share/va/3L976e9I7w0S2z044514484224">
+       Open View 4
+    </a>
+  </div>
 </body>
 </html>
